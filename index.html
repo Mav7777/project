@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML</title>
+    <!-- <link rel="stylesheet" href="Task1(CSS).css"> -->
+</head>
+
+<style>
+    table, th, td {
+        border: 4px solid rgb(237, 162, 0);
+        border-radius: 15px;
+        height: 50px;
+        width: 50%;
+        font-size: 150%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      td{
+        width: 500px;
+        height: 50px; 
+        border-radius: 15px; 
+        background-color: rgba(0, 0, 0, 0);
+      }
+      body{
+        background-image: url('Dodge.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: aliceblue;
+      }
+      input{
+        width: 50%;
+        height: 50%;
+      }
+</style>
+
+<body>
+    <p style="font-size: 250%; font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(123, 0, 255);"><i><b><u>Faculty Of Computer & Information-Menoufia University</u></b></i></p>
+
+    <ol type="I" style="font-size: 150%; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <li><b>Software Engineering</b></li>
+        <li><b>General</b></li>
+        <ul style="list-style-type: square;">
+            <li>IT</li>
+            <li>IS</li>
+            <li>CS</li>
+            <li>BS</li>
+        </ul>
+        <li><b>Bioinformatics</b></li>
+    </ol>
+
+    <form action="https://formspree.io/f/mayvjgow" method="post">
+    <table>
+
+        <tr>
+            <th colspan="2">Registration Form</th>
+        </tr>
+        <tr>
+            <th>First Name:</th>
+            <td><input type="text" id="firstName" name="firstName"></td>
+        </tr>
+        <tr>
+            <th>Last Name:</th>
+            <td><input type="text" id="lastName" name="lastName" size="70%"></td>
+        </tr>
+        <tr>
+            <th>User Name:</th>
+            <td><input type="text" id="userName" name="userName" size="70%"></td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td><input type="password" id="password" name="passWord" size="70%"></td>
+        </tr>
+        <tr>
+            <th>Track:</th>
+            <td><select name="select" id="choose" >
+                <option value="" selected disabled hidden>ChooseTrack</option>
+                <option value="">Front-End</option>
+                <option value="">Back-End</option>
+                <option value="">Android-Application</option>
+                <option value="">Ios-Application</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th rowspan="2">Gender:</th>
+            <td><input type="radio" name="gender" id="Male">Male</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" id="Female">Female</td>
+        </tr>
+        <tr>
+            <th rowspan="6">Favorites:</th>
+            <td><input type="checkbox" name="C++" id="C++">C++</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="Java" id="Java">Java</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="HTML" id="HTML">HTML</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="CSS" id="CSS">CSS</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="JavaScript" id="JavaScript">JavaScript</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="PHP" id="PHP">PHP</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td><textarea name="" id="" cols="50" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2"><input type="submit"><input type="reset"></th>
+        </tr>
+        <tr>
+            <th colspan="2"><input type="file" name="" id=""></th>
+        </tr>
+        
+    </table>
+    </form>
+
+    <p>By:</p>
+    <p>Mohamed Ayman Ammar.</p>
+    <p>Software Engineering.</p>
+</body>
+</html>
